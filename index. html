@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Website</title>
+  <link rel="stylesheet" href="web1.css"/>
+</head>
+<body>
+  <header>
+    <h1><b>Welcome to My Website!</b></h1>
+    <nav>
+      <ul>
+        <li><a href="#landing">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- LANDING SECTION -->
+    <section id="landing">
+      <img src="/storage/emulated/0/DCIM/Screenshots/IMG_20250619_142210.jpg" class="landing-img" height="300" width="400" />
+      <h1>Hi! I'm Renante Segarino Jr.</h1>  
+      <p>An aspiring web developer who blends code with creativity.</p>  
+      <a href="#about"><button class="btn">Explore My Website</button></a>  
+    </section>
+
+    <!-- ABOUT ME -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm Renante Segarino, a budding coder who loves reading and technology. I enjoy creating imaginative and useful web experiences, and I'm getting better at HTML, CSS, and JavaScript. In addition to coding, books inspire me and help me develop my creativity and problem-solving abilities. I welcome every obstacle as a chance to learn and grow in the tech world.
+        <br><br>
+        "Every great coder once typed their first line—I'm just getting started, one script and story at a time."
+      </p>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript (basic)</li>
+        <li>Responsive Web Design</li>
+      </ul>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Here are a few of the projects I've worked on:</p>
+      <ul>
+        <li>
+          <a href="https://shellasegarino22.github.io/Planner-list/" target="_blank">
+            Planner List Website (HTML, CSS, JavaScript)
+          </a>
+        </li>
+        <li>
+          <a href="https://shellasegarino22.github.io/My-Single-Page-Portfolio-/" target="_blank">
+            My first responsive portfolio page
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>Phone: <a href="tel:+639923128937">09923128937</a></p>
+      <p>Email: <a href="mailto:renantejr911@gmail.com">renantejr911@gmail.com</a></p>
+      <p>Facebook: <a href="https://www.facebook.com/renantejr.segarino" target="_blank">Renante Amper Segarino Jr.</a></p>
+      
+         </section>
+  </main>
+
+  <!-- SCROLL TO TOP BUTTON -->
+  <button id="scrollToTopBtn" title="Go to top">↑</button>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2025 Renante A. Segarino Jr. All rights reserved.</p>
+  </footer>
+
+  <script src="web1.js"></script>
+</body>
+</html>
